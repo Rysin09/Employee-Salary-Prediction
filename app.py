@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
-model=joblib.load("best_model.pkl")
+model=joblib.load("prediction_model.pkl")
 st.set_page_config(page_title="Employee Salary Prediction",page_icon="💰",layout="centered")
 st.title("Employee Salary Prediction")
 st.markdown("Predict weatheer an employee will earn more than 50k or not")
